@@ -14,6 +14,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
+import com.azure.communication.common.*;
+import com.azure.communication.identity.*;
+import com.azure.communication.identity.models.*;
+import com.azure.core.credential.*;
+
 /**
  * Azure Functions with HTTP Trigger.
  */

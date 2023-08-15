@@ -28,6 +28,16 @@
             <artifactId>azure-communication-identity</artifactId>
             <version>1.4.8</version>
         </dependency>
+        <dependency>
+            <groupId>com.microsoft.graph</groupId>
+            <artifactId>microsoft-graph</artifactId>
+            <version>5.66.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.azure</groupId>
+            <artifactId>azure-identity</artifactId>
+            <version>1.10.0</version>
+        </dependency>
     </dependencies>
 
     <build>

@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" modified="2023-08-15T15:02:15.973Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="54mECG4o55Ysd8X760xk" version="21.6.6" type="device">
+  <diagram name="Page-1" id="EAiGGHL_hutjNQ6EyDsd">
+    <mxGraphModel dx="1979" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AOxjZR4oDShuszE58FCg-34" value="Azure" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="600" y="210" width="478" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-33" value="IOS Client" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="259" y="210" width="236" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-32" value="Datos" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="20" y="210" width="143" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="AOxjZR4oDShuszE58FCg-1" target="AOxjZR4oDShuszE58FCg-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-1" value="Azure &lt;br&gt;Communication Service" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Azure_Communication_Services.svg;" parent="1" vertex="1">
+          <mxGeometry x="935" y="364.25" width="68" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="AOxjZR4oDShuszE58FCg-3" target="AOxjZR4oDShuszE58FCg-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="GeACStoken&lt;br&gt;(Azure Function)" link="https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/identity/access-tokens?tabs=windows&amp;pivots=programming-language-java" id="AOxjZR4oDShuszE58FCg-3">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" parent="1" vertex="1">
+            <mxGeometry x="656" y="359.25" width="68" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AOxjZR4oDShuszE58FCg-50" value="Create &lt;br&gt;Online Meeting&lt;br&gt;(Java SDK)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="AOxjZR4oDShuszE58FCg-4" target="AOxjZR4oDShuszE58FCg-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="AOxjZR4oDShuszE58FCg-4" target="AOxjZR4oDShuszE58FCg-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-4" value="Datos Scheduler" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.scheduler;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="66" y="435" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="AOxjZR4oDShuszE58FCg-22" target="AOxjZR4oDShuszE58FCg-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-29" value="Meeting&lt;br&gt;Details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="AOxjZR4oDShuszE58FCg-5" target="AOxjZR4oDShuszE58FCg-28" edge="1">
+          <mxGeometry x="0.2516" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="iOS Device" link="https://learn.microsoft.com/en-us/azure/communication-services/quickstarts/ui-library/get-started-composites?tabs=kotlin&amp;pivots=platform-ios" id="AOxjZR4oDShuszE58FCg-5">
+          <mxCell style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.device_os" parent="1" vertex="1">
+            <mxGeometry x="297" y="598" width="49" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="AOxjZR4oDShuszE58FCg-25" value="Meeting&lt;br&gt;Details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="AOxjZR4oDShuszE58FCg-9" target="AOxjZR4oDShuszE58FCg-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-9" value="Notification Hub" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Notification_Hubs.svg;" parent="1" vertex="1">
+          <mxGeometry x="52.5" y="595" width="67" height="56.00000000000001" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-17" value="ACS Token" style="points=[[0,0.5,0],[0.24,0,0],[0.5,0.28,0],[0.995,0.475,0],[0.5,0.72,0],[0.24,1,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.key;fillColor=#005073;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="804" y="378" width="50" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="AOxjZR4oDShuszE58FCg-5" target="AOxjZR4oDShuszE58FCg-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353" y="690" as="sourcePoint" />
+            <mxPoint x="554" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-22" value="ACS Token" style="points=[[0,0.5,0],[0.24,0,0],[0.5,0.28,0],[0.995,0.475,0],[0.5,0.72,0],[0.24,1,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.key;fillColor=#005073;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="296" y="378" width="50" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-27" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/crime-and-security-24/64/21-128.png" parent="1" vertex="1">
+          <mxGeometry x="935" y="710" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="AOxjZR4oDShuszE58FCg-28" target="AOxjZR4oDShuszE58FCg-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-28" value="Video Call (Teams)" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/512px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png;" parent="1" vertex="1">
+          <mxGeometry x="656" y="593" width="64.54" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-31" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.mos.cms.futurecdn.net/LXCzRRiAzVxX368xZLE6U-970-80.jpg.webp;" parent="1" vertex="1">
+          <mxGeometry x="330" y="506" width="142.13" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-43" value="Meeting Details:&lt;br&gt;Group Id&lt;br&gt;Metting Url&lt;br&gt;&lt;br&gt;Meeting Id&lt;br&gt;Passcode" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="140" y="653" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-44" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" parent="1" vertex="1">
+          <mxGeometry x="60" y="435" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-48" value="Microsoft Graph API" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://res.cloudinary.com/apideck/image/upload/v1604326894/icons/microsoft-graph.png;" parent="1" vertex="1">
+          <mxGeometry x="45.79" y="230" width="80.42" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-53" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" parent="1" vertex="1">
+          <mxGeometry x="40" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-54" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" parent="1" vertex="1">
+          <mxGeometry x="53" y="586" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-55" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" parent="1" vertex="1">
+          <mxGeometry x="290" y="598" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-56" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" parent="1" vertex="1">
+          <mxGeometry x="670" y="358" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AOxjZR4oDShuszE58FCg-57" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontFamily=Tahoma;spacingBottom=4;spacingRight=2;strokeColor=#d3d3d3;" parent="1" vertex="1">
+          <mxGeometry x="650" y="593" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

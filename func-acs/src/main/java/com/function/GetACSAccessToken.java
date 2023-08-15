@@ -22,13 +22,13 @@ import com.azure.core.credential.*;
 /**
  * Azure Functions with HTTP Trigger.
  */
-public class Function {
+public class GetACSAccessToken {
     /**
-     * This function listens at endpoint "/api/HttpExample". Two ways to invoke it using "curl" command in bash:
-     * 1. curl -d "HTTP Body" {your host}/api/HttpExample
-     * 2. curl "{your host}/api/HttpExample?name=HTTP%20Query"
+     * This function listens at endpoint "/api/GetACSAccessToken". Two ways to invoke it using "curl" command in bash:
+     * 1. curl -d "HTTP Body" {your host}/api/GetACSAccessToken
+     * 2. curl "{your host}/api/GetACSAccessToken?name=HTTP%20Query"
      */
-    @FunctionName("HttpExample")
+    @FunctionName("GetACSAccessToken")
     public HttpResponseMessage run(
             @HttpTrigger(
                 name = "req",

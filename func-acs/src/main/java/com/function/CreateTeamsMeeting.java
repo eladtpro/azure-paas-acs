@@ -7,6 +7,8 @@ import com.microsoft.graph.models.OnlineMeeting;
 import com.microsoft.graph.models.Request;
 import com.microsoft.graph.requests.GraphServiceClient;
 import com.microsoft.graph.serializer.OffsetDateTimeSerializer;
+import com.azure.identity.ClientSecretCredential;
+import com.azure.identity.ClientSecretCredentialBuilder;
 import com.azure.identity.DeviceCodeCredential;
 import com.azure.identity.DeviceCodeCredentialBuilder;
 import com.microsoft.azure.functions.*;
@@ -36,11 +38,14 @@ public class CreateTeamsMeeting {
         final String tenantId = tenant; // or "common" for multi-tenant apps
         final List<String> scopes = Arrays.asList("User.Read");
 
-        final DeviceCodeCredential credential = new DeviceCodeCredentialBuilder()
-            .clientId(clientId).tenantId(tenantId).challengeConsumer(challenge -> {
-                // Display challenge to the user
-                System.out.println(challenge.getMessage());
-            }).build();
+        // final DeviceCodeCredential credential = new DeviceCodeCredentialBuilder()
+        //     .clientId(clientId).tenantId(tenantId).challengeConsumer(challenge -> {
+        //         // Display challenge to the user
+        //         System.out.println(challenge.getMessage());
+        //     }).build();
+
+        final ClientSecretCredential credential = new ClientSecretCredentialBuilder()
+            .clientId(clientId).tenantId(tenantId).clientSecret() .build();
 
         if (null == scopes || null == credential) {
             throw new Exception("Unexpected error");
